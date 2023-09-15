@@ -1,4 +1,19 @@
+import React, { useState } from "react";
+import items from "./data";
+import Title from "./Title";
+import Menu from "./menu";
+
+
 const App = () => {
-  return <h2>Rony's Kitchen</h2>;
-};
-export default App;
+  const [menuItems, setMenuItems] = useState(items)
+  return(
+      <main>
+        <section className="menu">
+          <Title text = "Rony's Kitchen" />
+          <Menu items={menuItems} />
+        </section>
+     </main>
+  )
+}
+export default App
+
