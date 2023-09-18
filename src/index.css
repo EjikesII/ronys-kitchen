@@ -253,26 +253,23 @@ ul {
   margin-top: 1rem;
 }
 /* ============= PROJECT CSS =============== */
-
 .menu {
   padding: 5rem 0;
 }
-
-.btn-container {
-  margin: 2rem 0 4rem 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
 .section-center {
-  width: 90vw;
+  width: 90;
   margin: 0 auto;
   max-width: var(--max-width);
   display: grid;
   gap: 2rem;
 }
-
+.btn-container {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 .menu-item {
   background: var(--white);
   border-radius: var(--borderRadius);
@@ -292,9 +289,10 @@ ul {
   gap: 1rem;
   margin-bottom: 1.25rem;
 }
-
 .item-info h5 {
+  font-style: normal;
   font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .item-price {
   background: var(--primary-500);
@@ -303,28 +301,25 @@ ul {
   letter-spacing: var(--letterSpacing);
   border-radius: var(--borderRadius);
 }
-
 .item-text {
   line-height: 2;
   color: var(--grey-500);
 }
-
 .section-center {
   justify-items: center;
 }
 .menu-item {
   max-width: 25rem;
 }
-
 @media screen and (min-width: 992px) {
   .section-center {
     grid-template-columns: 1fr 1fr;
     align-items: start;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 992px) {
   .section-center {
-    width: 95vw;
+    width: 95w;
     grid-template-columns: repeat(3, 1fr);
   }
 }

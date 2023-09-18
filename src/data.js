@@ -65,7 +65,7 @@ const menu = [
   },
   {
     id: 9,
-    title: 'Energy buddy',
+    title: 'Ronys meat pie',
     category: 'drinks',
     price: 999.99,
     img: '/images/item-9.jpeg',
