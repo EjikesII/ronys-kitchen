@@ -23,7 +23,7 @@ const App = () => {
   return(
       <main>
         <section className="menu">
-          <Title text = " Maxis Kitchen" />
+          <Title text = " Rony's Kitchen Menu" />
           <Categories categories={categories} filterItems={filterItems} />
           <Menu items={menuItems} />
           
